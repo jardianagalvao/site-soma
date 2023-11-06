@@ -37,9 +37,11 @@ app.listen(port, function() {
 ## Criar uma requisição POST
 Copie e cole no arquivo que foi criado recente esse código:
 
-´´´app.post('/soma', function (req, res) {
+´´´
+app.post('/soma', function (req, res) {
   res.send('Response da requisição POST');
-});´´´
+});
+´´´
 
 ## Consumir dados do POST
 Instale a biblioteca `body-parser`. Essa biblioteca nos ajuda a fazer a leitura dos dados via ***POST***
@@ -48,30 +50,38 @@ Para instalar, execute o comando `npm install body-parser` no terminal do Visual
 
 Logo após a declaração da variável app, cole o código a seguir:
 
-´´´var bodyParser = require('body-parser');
-app.use(bodyParser.json());´´´
+´´´
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+´´´
 
 Em seguida, no corpo da função post, cole o seguinte código:
 
-´´´var body = req.body;
+´´´
+var body = req.body;
 console.log(body);
-res.send('via post');´´´
+res.send('via post');
+´´´
 
 Pronto. Salve o arquivo, execute `npm app.js` no terminal! Isso faz com que ele execute.
 
 ## Criando uma função soma
 Veja a função soma a seguir e como integrar ela em seu site.
 
-´´´function soma(a, b) {
+´´´
+function soma(a, b) {
   return a + b;
-}´´´
+}
+´´´
 
 Copie e cole essa função para o arquivo `app.js` e em seguida substitua o código a seguir no corpo da função post.
 
-```var body = req.body;
+```
+var body = req.body;
 var resultado = soma(body.a, body.b);
 
-res.send(`O resultado da soma de ${body.a} e ${body.b} é ${resultado}`);´´´
+res.send(`O resultado da soma de ${body.a} e ${body.b} é ${resultado}`);
+´´´
 
 Para criar as outras funções de subtração, divisão e multiplicação, basta se basear em como foi feito a função soma conforme poderemos ver a seguir
 
