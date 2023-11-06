@@ -137,7 +137,7 @@ res.send(`O resultado da divisão de ${body.a} e ${body.b} é ${resultado}`);
 ![image](https://github.com/jardianagalvao/site-soma/assets/145692852/81074325-529e-47be-ad98-fe9c3915c8fb)
 
 
-3. Depois teste cada um selecionando **"raw"** e o tipo de arquivo **"json"** dessa forma:
+3. Depois teste cada um selecionando **"raw"** e o tipo de arquivo **"JSON"** dessa forma:
 ## SOMA
 ![image](https://github.com/jardianagalvao/site-soma/assets/145692852/2ee3db55-5d3b-47e3-b524-929b525517e5)
 
