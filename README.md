@@ -130,7 +130,7 @@ res.send(`O resultado da divisão de ${body.a} e ${body.b} é ${resultado}`);
 });
 ```
 
-## Indo para o POSTMAN testar verificar o código:
+## Indo para o POSTMAN verificar o código:
 1. Depois de já ter executado a porta no terminal do vs code
 2. Vá para o postman e rode a porta http://localhost:3001/ e clique em "send". Assim como na imagem abaixo:
    
