@@ -66,7 +66,7 @@ res.send('via post');
 Pronto. Salve o arquivo, execute `npm app.js` no terminal! Isso faz com que ele execute.
 
 ## Criando uma função soma
-Veja a função soma a seguir e como integrar ela em seu site.
+- Veja a função soma a seguir e como integrar ela em seu site.
 
 ´´´
 function soma(a, b) {
@@ -74,9 +74,8 @@ function soma(a, b) {
 }
 ´´´
 
-Copie e cole essa função para o arquivo `app.js` e em seguida substitua o código a seguir no corpo da função post.
-
-```
+Copie e cole essa função para o arquivo `app.js` e em seguida substitua o código a seguir no corpo da função `post`.
+´´´
 var body = req.body;
 var resultado = soma(body.a, body.b);
 
