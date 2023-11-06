@@ -14,7 +14,7 @@ Com o **Express** instalado, deve-se criar um servidor.
 1. Crie primeiro um arquivo chamado `app.js`
 2. Copie o código a seguir nele:
 
-´´´
+```
 var express = require('express');
 var app = express();
 
@@ -28,7 +28,7 @@ var port = 3001;
 app.listen(port, function() {
   console.log(`App de Exemplo escutando na porta http://localhost:${port}/`);
 });
-´´´
+```
 
 ## Executando o servidor
 1. No terminal do Vs Code, execute o comando `node app.js` 
