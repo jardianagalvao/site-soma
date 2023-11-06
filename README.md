@@ -98,7 +98,7 @@ res.send(`O resultado da subtração de ${body.a} e ${body.b} é ${resultado}`);
 });
 ```
 ## Criando uma função multiplicação
-- Veja a função subtração a seguir e como integrar ela em seu site.
+- Veja a função multiplicação a seguir e como integrar ela em seu site.
 
 ```
 function multiplicacao(a, b) {
@@ -114,7 +114,7 @@ res.send(`O resultado da multiplicação de ${body.a} e ${body.b} é ${resultado
 });
 ```
 ## Criando uma função divisão
-- Veja a função subtração a seguir e como integrar ela em seu site.
+- Veja a função divisão a seguir e como integrar ela em seu site.
 
 ```
 function divisao(a, b) {
@@ -137,4 +137,7 @@ res.send(`O resultado da divisão de ${body.a} e ${body.b} é ${resultado}`);
 ![image](https://github.com/jardianagalvao/site-soma/assets/145692852/81074325-529e-47be-ad98-fe9c3915c8fb)
 
 
-Depois teste cada um dessa forma: image
+3. Depois teste cada um dessa forma:
+## SOMA
+![image](https://github.com/jardianagalvao/site-soma/assets/145692852/2ee3db55-5d3b-47e3-b524-929b525517e5)
+
