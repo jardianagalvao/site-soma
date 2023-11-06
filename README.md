@@ -66,7 +66,7 @@ res.send('via post');
 Pronto. Salve o arquivo, execute `npm app.js` no terminal! Isso faz com que ele execute.
 
 ## Criando uma função soma
-- Veja a função soma a seguir e como integrar ela em seu site.
+- Veja a função soma a seguir e como integrá-la em seu site.
 
 ```
 function soma(a, b) {
@@ -82,7 +82,7 @@ var resultado = soma(body.a, body.b);
 res.send(`O resultado da soma de ${body.a} e ${body.b} é ${resultado}`);
 ```
 ## Criando uma função substração
-- Veja a função subtração a seguir e como integrar ela em seu site.
+- Veja a função subtração a seguir e como integrá-la em seu site.
 
 ```
 function subtracao(a, b) {
@@ -98,7 +98,7 @@ res.send(`O resultado da subtração de ${body.a} e ${body.b} é ${resultado}`);
 });
 ```
 ## Criando uma função multiplicação
-- Veja a função multiplicação a seguir e como integrar ela em seu site.
+- Veja a função multiplicação a seguir e como integrá-la em seu site.
 
 ```
 function multiplicacao(a, b) {
@@ -114,7 +114,7 @@ res.send(`O resultado da multiplicação de ${body.a} e ${body.b} é ${resultado
 });
 ```
 ## Criando uma função divisão
-- Veja a função divisão a seguir e como integrar ela em seu site.
+- Veja a função divisão a seguir e como integrá-la em seu site.
 
 ```
 function divisao(a, b) {
@@ -140,4 +140,14 @@ res.send(`O resultado da divisão de ${body.a} e ${body.b} é ${resultado}`);
 3. Depois teste cada um dessa forma:
 ## SOMA
 ![image](https://github.com/jardianagalvao/site-soma/assets/145692852/2ee3db55-5d3b-47e3-b524-929b525517e5)
+
+## SUBTRAÇÃO
+
+![image](https://github.com/jardianagalvao/site-soma/assets/145692852/f13b4cbf-aa34-46d9-9562-7d2ef50fe888)
+
+## MULTIPLICAÇÃO
+![image](https://github.com/jardianagalvao/site-soma/assets/145692852/342289a5-1f2f-48a9-8c8f-abb195dddced)
+
+## DIVISÃO
+![image](https://github.com/jardianagalvao/site-soma/assets/145692852/f36ee6be-0e1b-4ab3-8457-406cc62d6033)
 
