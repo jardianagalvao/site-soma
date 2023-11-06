@@ -81,8 +81,54 @@ var resultado = soma(body.a, body.b);
 
 res.send(`O resultado da soma de ${body.a} e ${body.b} é ${resultado}`);
 ```
+## Criando uma função substração
+- Veja a função subtração a seguir e como integrar ela em seu site.
 
-Para criar as outras funções de subtração, divisão e multiplicação, basta se basear em como foi feito a função soma conforme poderemos ver a seguir
+```
+function subtracao(a, b) {
+  return a - b;
+}
+```
+Copie e cole essa função para o arquivo `app.js` e em seguida substitua o código a seguir no corpo da função `post`.
+```
+var body = req.body;
+var resultado = subtracao(body.a, body.b);
+  
+res.send(`O resultado da subtração de ${body.a} e ${body.b} é ${resultado}`);
+});
+```
+## Criando uma função multiplicação
+- Veja a função subtração a seguir e como integrar ela em seu site.
+
+```
+function multiplicacao(a, b) {
+  return a * b;
+}
+```
+Copie e cole essa função para o arquivo `app.js` e em seguida substitua o código a seguir no corpo da função `post`.
+```
+var body = req.body;
+var resultado = multiplicacaocao(body.a, body.b);
+  
+res.send(`O resultado da multiplicação de ${body.a} e ${body.b} é ${resultado}`);
+});
+```
+## Criando uma função divisão
+- Veja a função subtração a seguir e como integrar ela em seu site.
+
+```
+function divisao(a, b) {
+  return a / b;
+}
+```
+Copie e cole essa função para o arquivo `app.js` e em seguida substitua o código a seguir no corpo da função `post`.
+```
+var body = req.body;
+var resultado = divisao(body.a, body.b);
+  
+res.send(`O resultado da divisão de ${body.a} e ${body.b} é ${resultado}`);
+});
+```
 
 ## Indo para o POSTMAN testar verificar o código:
 1. Depois de já ter executado a porta no terminal do vs code
