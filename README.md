@@ -1,7 +1,7 @@
-#Entregavel03-Ambientes
+# Entregavel03-Ambientes
 Terceiro entregável da disciplina de Ambiente e Desenvolvimento de Software, Prof. Alzir
 
-#Criar um novo projeto
+## Criar um novo projeto
 Crie uma pasta chamada site-soma.
 Abra essa nova pasta no Visual Studio Code (Arquivo > Abrir e selecione a pasta).
 Em seguida, abra o terminal e execute o comando a seguir npm init -y para criar um novo projeto NPM.
