@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
-  res.send('Oi, mundo :-)');
+  res.send('Hello World');
 });
 
 var port = 3001;
